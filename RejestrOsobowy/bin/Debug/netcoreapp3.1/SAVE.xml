@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <people>
+    <Person>
+      <people />
+      <Name>Kamil</Name>
+      <Surname>Kowalski</Surname>
+      <Age>29</Age>
+      <Gender>Mężczyzna</Gender>
+      <PostCode>22300</PostCode>
+      <City>Kielce</City>
+      <Street>Kowalskiego</Street>
+      <HouseNumber>3</HouseNumber>
+      <FlatNumber>0</FlatNumber>
+    </Person>
+    <Person>
+      <people />
+      <Name>Weronika</Name>
+      <Surname>Nowa</Surname>
+      <Age>22</Age>
+      <Gender>Kobieta</Gender>
+      <PostCode>22456</PostCode>
+      <City>Poznań</City>
+      <Street>Klonowa</Street>
+      <HouseNumber>10</HouseNumber>
+      <FlatNumber>0</FlatNumber>
+    </Person>
+    <Person>
+      <people />
+      <Name>Monika</Name>
+      <Surname>Wolna</Surname>
+      <Age>19</Age>
+      <Gender>Kobieta</Gender>
+      <PostCode>99888</PostCode>
+      <City>Kielce</City>
+      <Street>Wolności</Street>
+      <HouseNumber>89</HouseNumber>
+      <FlatNumber>10</FlatNumber>
+    </Person>
+    <Person>
+      <people />
+      <Name>Popa</Name>
+      <Surname>Nowak</Surname>
+      <Age>22</Age>
+      <Gender>Kobieta</Gender>
+      <PostCode>22000</PostCode>
+      <City>Kowalewko</City>
+      <Street>Nowa</Street>
+      <HouseNumber>2</HouseNumber>
+      <FlatNumber>999</FlatNumber>
+    </Person>
+  </people>
+  <Name>w</Name>
+  <Surname>w</Surname>
+  <Age>2</Age>
+  <Gender>kobieta</Gender>
+  <PostCode>22333</PostCode>
+  <City>w</City>
+  <Street>w</Street>
+  <HouseNumber>2</HouseNumber>
+  <FlatNumber>3</FlatNumber>
+</Person>
