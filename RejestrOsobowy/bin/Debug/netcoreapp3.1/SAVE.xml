@@ -39,7 +39,7 @@
     </Person>
     <Person>
       <people />
-      <Name>Popa</Name>
+      <Name>Kasia</Name>
       <Surname>Nowak</Surname>
       <Age>22</Age>
       <Gender>Kobieta</Gender>
@@ -49,14 +49,26 @@
       <HouseNumber>2</HouseNumber>
       <FlatNumber>999</FlatNumber>
     </Person>
+    <Person>
+      <people />
+      <Name>Weronika</Name>
+      <Surname>Mackowiak</Surname>
+      <Age>39</Age>
+      <Gender>Kobieta</Gender>
+      <PostCode>62200</PostCode>
+      <City>Gniezno</City>
+      <Street>Moniuszki</Street>
+      <HouseNumber>5</HouseNumber>
+      <FlatNumber>0</FlatNumber>
+    </Person>
   </people>
-  <Name>w</Name>
-  <Surname>w</Surname>
-  <Age>2</Age>
-  <Gender>kobieta</Gender>
-  <PostCode>22333</PostCode>
-  <City>w</City>
-  <Street>w</Street>
+  <Name>Weronika</Name>
+  <Surname>Mackowiak</Surname>
+  <Age>89</Age>
+  <Gender>Kobieta</Gender>
+  <PostCode>99700</PostCode>
+  <City>Warszawa</City>
+  <Street>Kokosowa</Street>
   <HouseNumber>2</HouseNumber>
   <FlatNumber>3</FlatNumber>
 </Person>

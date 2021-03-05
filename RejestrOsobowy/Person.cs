@@ -79,7 +79,7 @@ namespace RejestrOsobowy
 
                 try
                 {
-                    
+                    Console.WriteLine("---- Dodawanie osoby do rejestru ----");
                     Console.WriteLine("Podaj imię:");
                     name = Console.ReadLine();
                     if (string.IsNullOrEmpty(name) || name.Length >30)
@@ -92,6 +92,12 @@ namespace RejestrOsobowy
                     {
                         throw new Exception("Pole nazwisko nie może być puste oraz dłuższe niż 30 znaków.");
                     }
+
+                    if(people.Exists(x => x.name == name & x.surname == surname))
+                    {
+                        throw new Exception("Istnieje już osoba o takich danych w rejestrze, skontaktuj się z Administratorem w celu wyjaśnienia.");
+                    }
+
                     Console.WriteLine("Podaj wiek:");
                     age = int.Parse(Console.ReadLine());
                     if (age > 150 || age < 1)
@@ -171,6 +177,7 @@ namespace RejestrOsobowy
                     Console.WriteLine("Coś poszło nie tak: " + e.Message);
                     Console.WriteLine("Naciśnij dowolny klawisz aby kontynuować...");
                     Console.ReadKey();
+                    check = true;
                     Console.Clear();
                 }
             }  while (check == false);
@@ -193,6 +200,7 @@ namespace RejestrOsobowy
                 }
                 else
                 {
+                    Console.Clear();
                     people.RemoveAt(chose - 1);
                     Console.WriteLine("Osoba została usunięta, naciśnij dowolny przycisk aby kontynuować..");
                     Console.ReadKey();
